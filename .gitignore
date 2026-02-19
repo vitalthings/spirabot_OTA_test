@@ -1,0 +1,39 @@
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts that should not be committed
+# (These should only be in Releases)
+*.bin
+*.hex
+*.elf
+*.uf2
+*.dfu
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# OS specific files
+desktop.ini
+.Trash-*
+
+# Development/testing files
+test/
+tests/
+dev/
+development/
+.cache/
+
+# Documentation build artifacts
+docs/_build/
+site/
